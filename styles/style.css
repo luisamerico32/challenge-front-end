@@ -1,0 +1,29 @@
+:root {
+    --backgroud-input: rgba(255, 255, 255, 0.16);
+    --font-color: rgb(173, 173, 173);
+}
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+body {
+    background-color: #051D3B;
+    margin: 30px;
+    display: grid;
+    grid-template-rows: 56px 1fr;
+    row-gap: 80px;
+    grid-template-areas:
+        "header"
+        "main";
+}
+
+::placeholder {
+    color: var(--font-color);
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    grid-area: main;
+}

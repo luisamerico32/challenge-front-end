@@ -1,0 +1,81 @@
+.project-description {
+    display: flex;
+    flex-direction: column;
+}
+
+.project-description input,
+.personalization .selections select,
+.personalization .selections input {
+    width: 272px;
+    height: 56px;
+    
+    background: var(--backgroud-input);
+    color: #FFFFFF;
+
+    border: none;
+    outline: none;
+    border-radius: 8px;
+    margin-top: 15px;
+
+    transition-duration: 0.3s;
+}
+
+.project-description input:hover,
+.personalization .selections select:hover,
+.personalization .selections input:hover,
+.header input:hover {
+    background-color: rgba(255, 255, 255, 0.24);
+}
+
+.project-description #description {
+    height: 95px;
+}
+
+.personalization {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.personalization .selections {
+    display: flex;
+    flex-direction: column;
+}
+
+.personalization .selections #languages {
+    padding-left: 20px;
+    color: #FFFFFF;
+    font-size: 1rem;
+    width: 294px;
+}
+
+.personalization .selections #languages option {
+    background: #41536A;
+    border-radius: 8px;
+}
+
+.personalization .selections input {
+    width: 294px;
+}
+
+aside.form button {
+    margin-top: 15px;
+    width: 294px;
+    height: 56px;
+    font-size: 1rem;
+    font-weight: bold;
+    background: #5081FB;
+    color: #051D3B;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.1s;
+}
+
+aside.form button:hover {
+    background-color: #7BA4FC;
+}
+
+aside.form button:active {
+    border: 4px solid rgba(80, 129, 251, 0.72);
+}

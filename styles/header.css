@@ -1,0 +1,81 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    grid-area: header;
+}
+
+.header .logo {
+    width: 190px;
+    height: 56px;
+}
+
+.header .logo img {
+    height: 56px;
+}
+
+.header .input-area img {
+    display: none;
+}
+
+.header .input-area input {
+    width: 45vw;
+    height: 56px;
+    border-radius: 8px;
+    justify-self: center;
+
+    background: var(--backgroud-input);
+
+    border: none;
+    outline: none;
+
+    transition-duration: 0.3s;
+}
+
+.header .input-area input[type='text'],
+.project-description input[type='text'] {
+    color: var(--font-color);
+    font-size: 20px;
+
+    padding-left: 20px;
+}
+
+.header .menu-bar img {
+    display: none;
+}
+
+.header .profile {
+    display: flex;
+    justify-content: flex-end;
+    height: 56px;
+    width: 298px;
+
+    color: #FFF;
+}
+
+.header .profile .profile-inside {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-radius: 8px;
+
+    cursor: pointer;
+}
+
+.header .profile .profile-inside:hover {
+    background: rgba(255, 255, 255, 0.08);
+}
+
+.header .profile .menu-img {
+    display: none;
+}
+
+.header .profile .profile-img {
+    border-radius: 100%;
+    margin-right: 15px;
+
+    height: 36px;
+}
+
+.header .profile span {
+    font-size: 1.2rem;
+}

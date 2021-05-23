@@ -1,0 +1,92 @@
+.code-zone-text {
+    background-color: #6ACEFB;
+
+    width: 47vw;
+    height: 370px;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 8px;
+}
+
+.code-zone textarea {
+    background-color: #141414;
+    color: #FFFFFF;
+
+    box-sizing: border-box;
+    width: 41vw;
+    height: 285px;
+    padding: 25px 15px;
+
+    border: none;
+    border-radius: 0px 0px 8px 8px;
+    outline: none;
+
+    resize: none;
+}
+
+.code-zone .circles {
+    background-color: #141414;
+
+    width: 41vw;
+    height: 30px;
+    top: 15px;
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px 10px;
+
+    border: none;
+    border-radius: 8px 8px 0px 0px;
+}
+
+.code-zone .circles .red,
+.code-zone .circles .yellow,
+.code-zone .circles .green {
+    width: 13px;
+    height: 13px;
+    border-radius: 100%;
+    margin-left: 8px;
+}
+
+.code-zone .circles .red {
+    background-color: #FF5F56;
+}
+
+.code-zone .circles .yellow {
+    background-color: #FFBD2E;
+}
+
+.code-zone .circles .green {
+    background-color: #27C93F;
+}
+
+.code-zone button {
+    background-color: rgb(80, 129, 251, 0.08);
+    color: #FFFFFF;
+    font-weight: 400;
+
+    width: 47vw;
+    height: 56px;
+    margin-top: 20px;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    
+    transition: background-color 0.3s;
+}
+
+.code-zone button:hover {
+    background-color: rgba(80, 129, 251, 0.16);
+}
+
+.code-zone button:focus {
+    background-color: rgba(80, 129, 251, 0.24);
+}
+
+.code-zone button:active {
+    border: 4px solid rgba(80, 129, 251, 0.24);
+}

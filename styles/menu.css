@@ -1,0 +1,48 @@
+.menu {
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+}
+
+.menu h3, 
+.project-description h3,
+.personalization h3 {
+    font-size: 1rem;
+    font-weight: 100;
+    color: #FFF;
+    margin: 0px;
+}
+
+.menu ul {
+    padding: 0px;
+}
+
+.menu li {
+    list-style-type: none;
+    padding-bottom: 15px;
+}
+
+.menu li button {
+    width: 48px;
+    height: 48px;
+
+    background: rgb(80, 129, 251, 0.16);
+    border-radius: 16px;
+    border: none;
+    transition-duration: 0.3s;
+}
+
+.menu li button:hover {
+    background-color: rgb(80, 129, 251);
+    cursor: pointer;
+}
+
+.menu li button:focus {
+    background-color: rgb(80, 129, 251);
+}
+
+.menu li span {
+    color: #FFF;
+    padding-left: 10px;
+    font-weight: 400;
+}

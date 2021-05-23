@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/menu.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/code.css">
+    <link rel="stylesheet" href="styles/responsive.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;400&display=swap" rel="stylesheet">
+    <title>Alura Dev</title>
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="./assets/alura_logo.png" alt="Logo">
+        </div>
+        <div class="input-area">
+            <img src="assets/search-icon.svg" alt="Buscar">
+            <input type="text" placeholder="Busque por algo">
+        </div>
+        <div class="profile">
+            <div class="profile-inside">
+                <img src="assets/menu-bar.png" alt="Menu" class="menu-img">
+                <img src="./assets/profile.jpg" alt="Perfil" class="profile-img">
+                <span>Profile</span>
+            </div>
+        </div>
+    </header>
+    <main>
+        <aside class="menu">
+            <h3>MENU</h3>
+            <ul>
+                <li>
+                    <button>
+                        <img src="./assets/icon_code.svg" alt="Home">
+                    </button>
+                    <span>Editor de código</span>
+                </li>
+                <li>
+                    <button>
+                        <img src="./assets/icon_community.svg" alt="Home">
+                    </button>
+                    <span>Comunidade</span>
+                </li>
+            </ul>
+        </aside>
+        <div class="code-zone">
+            <div class="code-zone-text">
+                <div class="circles">
+                    <div class="red"></div>
+                    <div class="yellow"></div>
+                    <div class="green"></div>
+                </div>
+                <textarea name="code"></textarea>
+            </div>
+            <button>Visualizar com o highlight</button>
+        </div>
+        <aside class="form">
+            <form class="project-description">
+                <h3>SEU PROJETO</h3>
+                <input type="text" name="titulo" id="title" placeholder="Nome do seu projeto">
+                <input type="text" name="descrição" id="description" placeholder="Descrição do seu projeto">
+            </form>
+            <div class="personalization">
+                <h3>PERSONALIZAÇÃO</h3>
+                <div class="selections">
+                    <select id="languages">
+                        <option value="javascript">JavaScript</option>
+                        <option value="html">HTML</option>
+                        <option value="css">CSS</option>
+                    </select>
+                    <input type="color" class="input-color" value="#6ACEFB">
+                </div>
+            </div>
+            <button type="submit" value="Submit">Salvar Projeto</button>
+        </aside>
+    </main>
+</body>
+</html>
+<script src="main.js"></script>

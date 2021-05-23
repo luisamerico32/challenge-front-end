@@ -1,0 +1,100 @@
+@media only screen and (max-width: 1300px) {
+    .header .profile-img, span {
+        display: none;
+    }
+
+    .header .profile {
+        justify-content: center;
+        width: auto;
+    }
+
+    .header .profile .menu-img {
+        display: flex;
+        align-items: center;
+    }
+
+    .header .menu-img {
+        height: 36px;
+    }
+
+    main .menu {
+        display: none;
+    }
+
+    main {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .code-zone button {
+        margin-bottom: 25px;
+    }
+
+    .code-zone textarea,
+    .code-zone .circles {
+        width: 80vw;
+    }
+
+    .code-zone-text,
+    .code-zone button,
+    .project-description input,
+    aside.form button {
+        width: 90vw;
+    }
+
+    aside.form button {
+        width: 100%;
+    }
+
+    .form {
+        margin: 15px;
+    }
+
+    .personalization .selections{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .personalization .selections #languages,
+    .personalization .selections .input-color {
+        flex: 1;
+    }
+
+    .personalization .selections #languages {
+        margin-right: 15px;
+    }
+}
+
+@media only screen and (max-width: 640px) {
+    .header .input-area input {
+        display: none;
+    }
+
+    .header .input-area {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .header .input-area img {
+        display: flex;
+        width: 36px;
+    }
+
+    .personalization .selections {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .personalization .selections #languages,
+    .personalization .selections .input-color {
+        flex: auto;
+        width: 100%;
+    }
+
+    .personalization .selections #languages {
+        margin-right: 0px;
+    }
+}
